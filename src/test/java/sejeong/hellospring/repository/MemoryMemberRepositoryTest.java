@@ -3,7 +3,6 @@ package sejeong.hellospring.repository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import sejeong.hellospring.domain.Member;
-import sejeong.hellospring.domain.MemberRepository;
 import sejeong.hellospring.domain.MemoryMemberRepository;
 
 import java.util.List;

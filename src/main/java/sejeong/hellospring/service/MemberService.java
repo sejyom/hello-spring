@@ -2,7 +2,6 @@ package sejeong.hellospring.service;
 
 import sejeong.hellospring.domain.Member;
 import sejeong.hellospring.domain.MemberRepository;
-import sejeong.hellospring.domain.MemoryMemberRepository;
 
 import java.util.List;
 import java.util.Optional;
