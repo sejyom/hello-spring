@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-    @GetMapping("/") // 첫 화면
+    @GetMapping("/") // 메인화면
     public String home() {
         return "home";
     }
