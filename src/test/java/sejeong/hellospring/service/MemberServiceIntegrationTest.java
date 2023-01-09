@@ -9,10 +9,9 @@ import sejeong.hellospring.repository.MemberRepository;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.fail;
 
-@SpringBootTest
-@Transactional
+@SpringBootTest //스프링 컨테이너와 테스트를 함께 실행
+@Transactional //테스트가 끝나면 롤백됨(DB 영향 x)
 class MemberServiceIntegrationTest {
     @Autowired MemberService memberService;
     @Autowired MemberRepository memberRepository;
@@ -21,7 +20,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         // given
         Member member = new Member();
-        member.setName("hello");
+        member.setName("spring");
 
         // when
         Long saveId = memberService.join(member);
