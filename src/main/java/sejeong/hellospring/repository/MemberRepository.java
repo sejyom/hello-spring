@@ -1,4 +1,6 @@
-package sejeong.hellospring.domain;
+package sejeong.hellospring.repository;
+
+import sejeong.hellospring.domain.Member;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,6 +1,6 @@
-package sejeong.hellospring.domain;
+package sejeong.hellospring.repository;
 
-import org.springframework.stereotype.Repository;
+import sejeong.hellospring.domain.Member;
 
 import java.util.*;
 

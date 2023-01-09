@@ -1,9 +1,7 @@
 package sejeong.hellospring.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import sejeong.hellospring.domain.Member;
-import sejeong.hellospring.domain.MemberRepository;
+import sejeong.hellospring.repository.MemberRepository;
 
 import java.util.List;
 import java.util.Optional;
