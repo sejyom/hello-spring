@@ -3,7 +3,6 @@ package sejeong.hellospring;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import sejeong.hellospring.repository.JdbcMemberRepository;
 import sejeong.hellospring.repository.JdbcTemplateMemberRepository;
 import sejeong.hellospring.repository.MemberRepository;
 import sejeong.hellospring.repository.MemoryMemberRepository;
