@@ -12,7 +12,7 @@ public class HelloController {
     @GetMapping("hello")
     public String hello(Model model) {
         model.addAttribute("data", "hello!");
-        return "hello";
+        return "hello"; //스프링 컨테이너에서 hello.html를 찾아 나타냄
     }
 
     @GetMapping("hello-mvc")
