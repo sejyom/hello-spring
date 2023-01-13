@@ -10,7 +10,7 @@ import sejeong.hellospring.service.MemberService;
 
 import javax.sql.DataSource;
 
-@Configuration
+@Configuration //구성
 public class SpringConfig {
 
     private DataSource dataSource;
