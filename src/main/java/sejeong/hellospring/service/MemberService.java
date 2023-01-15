@@ -19,11 +19,11 @@ public class MemberService {
 
 
     // 회원가입
-    public Long join(Member member ) {
+    public Long join(Member member) {
         // 중복회원 검증
         validateDuplicateMember(member);
         memberRepository.save(member);
-        return member.getId();
+        return member.getId(); //핵심 관심 사항
     }
 
     private void validateDuplicateMember(Member member) {
