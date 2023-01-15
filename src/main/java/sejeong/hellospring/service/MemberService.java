@@ -3,10 +3,12 @@ package sejeong.hellospring.service;
 import sejeong.hellospring.domain.Member;
 import sejeong.hellospring.repository.MemberRepository;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
 // @Service
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
 
