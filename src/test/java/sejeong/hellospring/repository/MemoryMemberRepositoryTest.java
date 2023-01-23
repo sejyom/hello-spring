@@ -51,7 +51,7 @@ class MemoryMemberRepositoryTest {
         repository.save(member1);
 
         Member member2 = new Member();
-        member2.setName("sejeong22");
+        member2.setName("sejeong2");
         repository.save(member2);
 
         List<Member> result = repository.findAll();
